@@ -1,0 +1,13 @@
+:verbose: false
+:concurrency: 3
+:queues:
+  - critical
+  - default
+  - low
+production:
+:queues:
+  - critical
+  - default
+  - low
+  - arc_production_active_storage_analysis
+  - arc_production_active_storage_purge
